@@ -3,8 +3,7 @@ def buscarPalabra(objetivo, palabras):
         if palabra == objetivo:
             return True
         return False
-        if palabra != objetivo:
-            break
+        
 
 nombres = ["Perantano", "Zutano", "Fulano", "Mengano"]
 
