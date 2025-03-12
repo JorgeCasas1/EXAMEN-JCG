@@ -1,14 +1,19 @@
-palabras = {
-        "Peratano": 0,
-        "Zutano": 0,
-        "Fulano": 0,
-        "Mengano": 0 
-    }
-
 def buscarPalabra(objetivo, palabras):
-    
-    for i in objetivo:
+    for palabra in palabras:
+        if palabra == objetivo:
+            return True
+        return False
+        if palabra != objetivo:
+            break
 
+nombres = ["Perantano", "Zutano", "Fulano", "Mengano"]
+
+palabras = {
+    "Perantano": 0,
+    "Zutano": 0,
+    "Fulano": 0,
+    "Mengano": 0 
+}
 
 def imprimirListaInversa(lista):
     resultado = []
@@ -16,10 +21,11 @@ def imprimirListaInversa(lista):
         resultado+= lista[i]
 ## ATAJO return lista [::-1]
 
-
-nombres =['Peratano','Zutano','Fulano','Mengano']  
-print(imprimirListaInversa(nombres))   
-
-# Los -1 nos sirven para leer la list a la inversa
-
+while True:
+    nombre = input("NOMBRE: ")
+    if buscarPalabra(nombre, nombres):
+        print("Zutano tiene 50 años")
+    else:
+        print("El nombre no existe")
+    
 
