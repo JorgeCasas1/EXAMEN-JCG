@@ -35,3 +35,9 @@ Estamos utilizando
 |for|while|if|
 |---|-----|--|
 |listo|listo|listo| 
+
+```
+Para finalizar el con el bucle while y salir del bucle he utilizado un break
+para que salga del programa.
+
+```
