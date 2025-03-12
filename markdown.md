@@ -7,8 +7,13 @@ Intente al principio del examen utilizar un método para agilizar el trabajo, pe
 
 Estoy tratando de definir la **lista**. Estoy utilizando los -1 para invertir la lista convirtiendolo en cadena.
 
-## 2. Función de invertir número
+## 2. Función de buscar palabra
+
+Estoy utilizando un diccionario que voy a declarar fuera de la función. Dentro de ella aplicaré el bucle _for_
+para ir seleccionando los nombres que me interesen del ***diccionario***.
+
+## 3. Función de invertir número
 
 Estamos utilizando
 - [x] **for**
-- [ ] No vale utilizar ***[::-1]****
+- [ ] No vale utilizar `ATAJOS` ***[::-1]****
